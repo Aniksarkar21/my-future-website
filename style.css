@@ -1,0 +1,43 @@
+header{
+    background-color:rgba(255, 144, 14, 0.10);
+    
+    padding: 40px 240px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-title{
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: rgb(49, 47, 47);
+    
+}
+nav >ul{
+    display: flex;
+    list-style: none;
+}
+nav li{
+    list-style: none;
+    margin-right:30px ;
+    font-weight: 500;
+    font-size: 1rem;
+}
+nav li a{
+    text-decoration: none;
+    color: rgb(93, 89, 89);
+}
+.banner-content{
+    max-width: 800px;
+    text-align: center;
+    margin: 0 auto;
+}
+.banner-title{
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: rgb(49, 47, 47);
+}
+.banner-description{
+    color: rgb(143, 145, 151);
+}
